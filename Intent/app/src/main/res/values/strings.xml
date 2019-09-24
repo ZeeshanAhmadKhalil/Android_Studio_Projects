@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="go_to_alarm">Go to Alarm</string>
+    <string name="alert">Alert</string>
+    <string name="go_to_alert">Go To Alert</string>
+    <string name="alarm">Alarm</string>
+</resources>

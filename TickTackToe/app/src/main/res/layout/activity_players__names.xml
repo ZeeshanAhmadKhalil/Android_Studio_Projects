@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mk141.ticktacktoe.Players_Names">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/player1_apos_s_name"
+        android:id="@+id/textView"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/player1_name_choice"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:lines="1"
+        android:maxLines="1"
+        android:minLines="1"
+        android:singleLine="true"
+        android:text="Player1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/player2_apos_s_name"
+        android:id="@+id/textView1"
+        android:layout_below="@id/player1_name_choice"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/player2_name_choice"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="30dp"
+        android:lines="1"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="Player2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_marginTop="80dp"
+        android:onClick="to_choice_activity"
+        android:id="@+id/next_button"
+        android:layout_below="@+id/player2_name_choice"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

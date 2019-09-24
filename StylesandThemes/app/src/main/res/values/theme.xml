@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_colour">#77FF55</color>
+
+    <style name="my_theme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@color/background_colour</item>
+    </style>
+</resources>

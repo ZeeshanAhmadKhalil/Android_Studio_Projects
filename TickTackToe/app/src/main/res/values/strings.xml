@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tick Tack Toe</string>
+    <string name="player1_apos_s_name">Player1\'s Name:</string>
+    <string name="player2_apos_s_name">Player2\'s Name:</string>
+    <string name="next">Next</string>
+    <string name="game_over">Game Over</string>
+    <string name="this_will_change">This Will Change</string>
+    <string name="restart_game">Restart Game</string>
+</resources>

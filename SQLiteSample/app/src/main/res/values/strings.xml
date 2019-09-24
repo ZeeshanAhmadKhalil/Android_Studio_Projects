@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SQLiteSample</string>
+    <string name="dynamic">names will be shown here</string>
+    <string name="add_name_written_above">Add Name Written Above</string>
+    <string name="delete_name_written_above">Delete Name Written Above</string>
+    <string name="select_your_choice">Select your Choice</string>
+    <string name="add">Add</string>
+</resources>

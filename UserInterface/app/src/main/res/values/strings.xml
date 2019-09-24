@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Log in to your Google Account</string>
+    <string name="Logging_In_Title">Please Log In</string>
+    <string name="log_in">Log In</string>
+</resources>

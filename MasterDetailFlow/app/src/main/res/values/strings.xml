@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Master Detail Flow</string>
+    <string name="title_menu_detail">Menu Detail</string>
+</resources>

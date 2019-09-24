@@ -1,0 +1,40 @@
+
+ironman.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+ironman3
+  rotate: false
+  xy: 1, 1
+  size: 250, 320
+  orig: 250, 320
+  offset: 0, 0
+  index: -1
+ironman2
+  rotate: false
+  xy: 253, 27
+  size: 250, 294
+  orig: 250, 294
+  offset: 0, 0
+  index: -1
+ironman4
+  rotate: false
+  xy: 253, 27
+  size: 250, 294
+  orig: 250, 294
+  offset: 0, 0
+  index: -1
+ironman1
+  rotate: false
+  xy: 505, 57
+  size: 250, 264
+  orig: 250, 264
+  offset: 0, 0
+  index: -1
+ironman5
+  rotate: false
+  xy: 505, 57
+  size: 250, 264
+  orig: 250, 264
+  offset: 0, 0
+  index: -1

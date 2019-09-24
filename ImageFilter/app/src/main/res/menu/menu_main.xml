@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/colours" android:checkableBehavior="single">
+        <item android:id="@+id/original" android:orderInCategory="1"
+            app:showAsAction="never" android:title="Original" android:checked="true"></item>
+        <item android:id="@+id/heart" android:orderInCategory="2"
+            app:showAsAction="never" android:title="Heart"></item>
+        <item android:id="@+id/negative" android:orderInCategory="3"
+            app:showAsAction="never" android:title="Negative"></item>
+        <item android:id="@+id/invert" android:orderInCategory="4"
+            app:showAsAction="never" android:title="Invert"></item>
+        <item android:id="@+id/gray" android:orderInCategory="5"
+            app:showAsAction="never" android:title="Gray"></item>
+        <item android:id="@+id/bw" android:orderInCategory="6"
+            app:showAsAction="never" android:title="Black and White"></item>
+    </group>
+</menu>
